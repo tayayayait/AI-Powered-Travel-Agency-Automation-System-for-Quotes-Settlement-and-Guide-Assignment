@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* 1. Color Tokens (Light - Swiss Style & Bento Grid) */
+    --background: 210 20% 96%; /* #F4F5F7 (Light Grey - canvas bg) */
+    --foreground: 210 16% 24%; /* #333D47 (Slate Text - typography body) */
+
+    --card: 0 0% 100%; /* #FFFFFF (Crisp White - bento box) */
+    --card-foreground: 210 16% 24%; /* #333D47 */
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 210 16% 24%;
+
+    --primary: 216 100% 40%; /* #0052CC (Deep Ocean Blue) */
+    --primary-foreground: 0 0% 100%; /* #FFFFFF */
+
+    --secondary: 210 40% 96%; /* #F1F5F9 */
+    --secondary-foreground: 210 16% 24%; /* #333D47 */
+
+    --muted: 210 20% 96%; /* #F4F5F7 */
+    --muted-foreground: 215 14% 47%; /* #6B778C (Muted Gray Text) */
+
+    --accent: 216 100% 95%; /* Light blue for subtle active states */
+    --accent-foreground: 216 100% 40%; /* #0052CC */
+
+    --destructive: 8 100% 59%; /* #FF5630 (Alert Red) */
+    --destructive-foreground: 0 0% 100%;
+
+    --success: 160 84% 39%; /* #10B981 (Green for AI matches) */
+    --success-foreground: 0 0% 100%;
+
+    --warning: 38 92% 50%; /* #D97706 */
+    --warning-foreground: 0 0% 100%;
+
+    --info: 191 91% 36%;
+    --info-foreground: 0 0% 100%;
+
+    --border: 210 20% 94%; /* Very subtle 1px border */
+    --border-strong: 210 20% 88%;
+    --input: 210 20% 90%;
+    --ring: 216 100% 40%; /* #0052CC */
+    --overlay: 210 16% 24%; 
+
+    /* 2. Radius Tokens */
+    --radius-sm: 4px;
+    --radius-md: 6px;
+    --radius-lg: 12px;
+    --radius-xl: 16px; /* Bento Box radius */
+    --radius-pill: 9999px;
+    --radius: 8px; /* default */
+
+    /* 3. Sidebar/Topbar Tokens */
+    --topbar-height: 56px;
+    --sidebar-width: 260px;
+    --sidebar-width-collapsed: 72px;
+    --action-bar-height: 64px;
+
+    /* 4. Shadow Tokens (Soft & Whisper diffused) */
+    --shadow-sm: 0px 1px 3px 0px rgba(0,0,0,0.05);
+    --shadow-md: 0px 4px 12px -4px rgba(0,0,0,0.05);
+    --shadow-lg: 0px 10px 24px -8px rgba(0,0,0,0.08);
+
+    /* Sidebar Theme Context (Default Light Sync) */
+    --sidebar-background: 210 40% 98%; /* Slightly distinct from main canvas */
+    --sidebar-foreground: 210 16% 24%;
+    --sidebar-primary: 216 100% 40%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 210 20% 94%;
+    --sidebar-accent-foreground: 210 16% 24%;
+    --sidebar-border: 210 20% 94%;
+    --sidebar-ring: 216 100% 40%;
+  }
+
+  .dark {
+    /* (설계서: Light 모드는 필수. Dark는 Fallback으로 유지) */
+    --background: 222 84% 5%;
+    --foreground: 210 40% 98%;
+
+    --card: 223 47% 11%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 223 47% 11%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 216 100% 50%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 217 33% 18%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217 33% 18%;
+    --muted-foreground: 215 20% 65%;
+
+    --accent: 217 33% 18%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 8 100% 59%;
+    --destructive-foreground: 0 0% 100%;
+
+    --success: 160 84% 39%;
+    --success-foreground: 0 0% 100%;
+
+    --warning: 38 92% 40%;
+    --warning-foreground: 0 0% 100%;
+
+    --border: 217 33% 18%;
+    --input: 217 33% 18%;
+    --ring: 216 100% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: "Inter", "Roboto", "Noto Sans KR", sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Utility classes from Stitch design */
+  h1, h2, h3, h4, h5, h6 {
+    @apply tracking-tight font-bold text-slate-800; /* Maps to Slate Text */
+  }
+
+  .tabular-nums {
+    font-variant-numeric: tabular-nums;
+  }
+}

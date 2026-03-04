@@ -1,0 +1,111 @@
+{
+  "common": {
+    "save": "ບັນທຶກ",
+    "cancel": "ຍົກເລີກ",
+    "submit": "ສົ່ງ",
+    "draft": "ຮ່າງ",
+    "delete": "ລຶບ",
+    "edit": "ແກ້ໄຂ",
+    "search": "ຄົ້ນຫາ",
+    "filter": "ຕົວກອງ",
+    "all": "ທັງໝົດ",
+    "back": "ກັບຄືນ",
+    "next": "ຕໍ່ໄປ",
+    "loading": "ກຳລັງໂຫລດ...",
+    "error": "ເກີດຂໍ້ຜິດພາດ",
+    "noData": "ບໍ່ມີຂໍ້ມູນ",
+    "confirm": "ຢືນຢັນ",
+    "close": "ປິດ"
+  },
+  "nav": {
+    "dashboard": "ແຜງຄວບຄຸມ",
+    "quotations": "ຈັດການໃບສະເໜີລາຄາ",
+    "settlements": "ຈັດການການຊຳລະ",
+    "guideAssignment": "ມອບໝາຍໄກຣ",
+    "reports": "ລາຍງານ",
+    "settings": "ຕັ້ງຄ່າ"
+  },
+  "quotation": {
+    "title": "ຈັດການໃບສະເໜີລາຄາ",
+    "subtitle": "ສ້າງ ແລະ ຈັດການໃບສະເໜີລາຄາໃໝ່",
+    "new": "ສ້າງໃບສະເໜີລາຄາໃໝ່",
+    "detail": "ລາຍລະອຽດໃບສະເໜີລາຄາ",
+    "eventName": "ຊື່ງານ",
+    "client": "ລູກຄ້າ",
+    "startDate": "ວັນທີເລີ່ມ",
+    "endDate": "ວັນທີສິ້ນສຸດ",
+    "paxCount": "ຈຳນວນຜູ້ເຂົ້າຮ່ວມ",
+    "targetMargin": "ອັດຕາກຳໄລເປົ້າໝາຍ (%)",
+    "totalAmount": "ລວມທັງໝົດ",
+    "status": "ສະຖານະ",
+    "schedule": "ຕາຕະລາງ",
+    "costDetail": "ລາຍລະອຽດຄ່າໃຊ້ຈ່າຍ",
+    "proposedPrice": "ລາຄາສະເໜີ/ລາຍການ",
+    "totalCost": "ຄ່າໃຊ້ຈ່າຍລວມ",
+    "searchPlaceholder": "ຄົ້ນຫາຕາມຊື່ງານ ຫຼື ລູກຄ້າ..."
+  },
+  "status": {
+    "Draft": "ຮ່າງ",
+    "InReview": "ກຳລັງກວດສອບ",
+    "Approved": "ອະນຸມັດແລ້ວ",
+    "Rejected": "ຖືກປະຕິເສດ",
+    "Locked": "ລັອກ/ຢືນຢັນແລ້ວ"
+  },
+  "approval": {
+    "requestReview": "ສົ່ງເພື່ອກວດສອບ",
+    "approve": "ອະນຸມັດ",
+    "reject": "ປະຕິເສດ",
+    "confirmApprove": "ຢືນຢັນການອະນຸມັດ",
+    "rejectReason": "ເຫດຜົນຂອງການປະຕິເສດ",
+    "rejectReasonPlaceholder": "ເຊັ່ນ: ອັດຕາກຳໄລບໍ່ພຽງພໍ",
+    "marginWarning": "ຕ່ຳກວ່າອັດຕາກຳໄລແນະນຳ (15%)",
+    "marginBlock": "ບໍ່ສາມາດສົ່ງໃບສະເໜີລາຄາທີ່ມີອັດຕາກຳໄລຕ່ຳກວ່າ 0%"
+  },
+  "settlement": {
+    "title": "ຈັດການການຊຳລະ",
+    "subtitle": "ຈັດການລາຍການຊຳລະ ແລະ ດຳເນີນການຊຳລະ",
+    "new": "ສ້າງໃບສະຫຼຸບການຊຳລະ",
+    "detail": "ລາຍລະອຽດການຊຳລະ",
+    "expectedTotal": "ລວມທີ່ຄາດໄວ້",
+    "actualTotal": "ຄ່າໃຊ້ຈ່າຍຕົວຈິງ",
+    "balance": "ຍອດເຫຼືອ/ກຳໄລ-ຂາດທຶນ",
+    "finalize": "ປິດບັນຊີສຸດທ້າຍ",
+    "Pending": "ລໍຖ້າ",
+    "Completed": "ສຳເລັດ",
+    "Disputed": "ມີຂໍ້ຂັດແຍ້ງ"
+  },
+  "guide": {
+    "title": "ມອບໝາຍໄກຣ",
+    "subtitle": "ມອບໝາຍໄກຣຕາມຕາຕະລາງ",
+    "assign": "ມອບໝາຍໄກຣ",
+    "detail": "ລາຍລະອຽດ/ແກ້ໄຂ",
+    "Unassigned": "ຍັງບໍ່ມອບໝາຍ",
+    "Assigned": "ມອບໝາຍແລ້ວ",
+    "Completed": "ງານສຳເລັດ",
+    "Cancelled": "ຍົກເລີກ",
+    "availableGuides": "ລາຍຊື່ໄກຣທີ່ວ່າງ",
+    "assigned": "ມອບໝາຍແລ້ວ",
+    "select": "ເລືອກ"
+  },
+  "report": {
+    "title": "ລາຍງານທຸລະກິດ",
+    "subtitle": "ວິເຄາະຂໍ້ມູນລາຍໄດ້ ແລະ ຕົວຊີ້ວັດ",
+    "exportExcel": "Excel",
+    "exportPdf": "ລາຍງານ PDF",
+    "filterPeriod": "ໄລຍະເວລາ",
+    "filterCountry": "ຕາມປະເທດ",
+    "revenue": "ລາຍໄດ້ສະສົມ",
+    "conversionRate": "ອັດຕາການປິດດີລ",
+    "totalPax": "ຈຳນວນນັກທ່ອງທ່ຽວ",
+    "guideRate": "ອັດຕາການມອບໝາຍໄກຣ"
+  },
+  "settings": {
+    "title": "ຕັ້ງຄ່າລະບົບ",
+    "subtitle": "ກຳນົດຄ່າອັດຕາແລກປ່ຽນ, ພາສາ ແລະ ບັນຊີ",
+    "exchangeRate": "ຈັດການອັດຕາແລກປ່ຽນ",
+    "baseCurrency": "ສະກຸນເງິນຫຼັກ",
+    "language": "ພາສາ",
+    "timezone": "ເຂດເວລາ",
+    "saveRates": "ອັບເດດອັດຕາແລກປ່ຽນ"
+  }
+}

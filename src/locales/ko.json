@@ -1,0 +1,112 @@
+{
+  "common": {
+    "save": "저장",
+    "cancel": "취소",
+    "submit": "제출",
+    "draft": "임시저장",
+    "delete": "삭제",
+    "edit": "수정",
+    "search": "검색",
+    "filter": "필터",
+    "all": "전체",
+    "back": "뒤로",
+    "next": "다음",
+    "loading": "로딩 중...",
+    "error": "오류가 발생했습니다",
+    "noData": "데이터가 없습니다",
+    "confirm": "확인",
+    "close": "닫기"
+  },
+  "nav": {
+    "dashboard": "대시보드",
+    "quotations": "견적 관리",
+    "settlements": "정산 관리",
+    "guides": "가이드 관리",
+    "guideAssignment": "가이드 배정",
+    "reports": "리포트",
+    "settings": "설정"
+  },
+  "quotation": {
+    "title": "견적 관리",
+    "subtitle": "새로운 견적을 생성하고 관리합니다.",
+    "new": "새 견적 작성",
+    "detail": "견적 상세",
+    "eventName": "행사명",
+    "client": "고객사",
+    "startDate": "시작일",
+    "endDate": "종료일",
+    "paxCount": "참여 인원 (명)",
+    "targetMargin": "목표 마진율 (%)",
+    "totalAmount": "총액",
+    "status": "상태",
+    "schedule": "행사 일정",
+    "costDetail": "비용 상세 내역",
+    "proposedPrice": "제안 단가/건",
+    "totalCost": "총 원가",
+    "searchPlaceholder": "견적명 또는 고객사 검색..."
+  },
+  "status": {
+    "Draft": "임시저장",
+    "InReview": "결재중",
+    "Approved": "승인됨",
+    "Rejected": "반려됨",
+    "Locked": "확정/잠금"
+  },
+  "approval": {
+    "requestReview": "결재 상신",
+    "approve": "승인하기",
+    "reject": "반려하기",
+    "confirmApprove": "승인 확정",
+    "rejectReason": "반려 사유",
+    "rejectReasonPlaceholder": "예: 마진율 부족, 단가 재확인 요망 등",
+    "marginWarning": "권장 마진(15%)보다 낮습니다.",
+    "marginBlock": "마진율이 0% 미만인 견적은 상신할 수 없습니다."
+  },
+  "settlement": {
+    "title": "정산 관리",
+    "subtitle": "행사 정산 내역을 관리하고, 결제를 완료 처리합니다.",
+    "new": "정산서 생성",
+    "detail": "정산 상세",
+    "expectedTotal": "예상 총액",
+    "actualTotal": "실제 지출",
+    "balance": "손익 잔액",
+    "finalize": "정산 최종 마감",
+    "Pending": "대기/진행중",
+    "Completed": "완료됨",
+    "Disputed": "보류/이슈"
+  },
+  "guide": {
+    "title": "가이드 배정",
+    "subtitle": "행사 일정에 맞춰 전담 가이드를 배정합니다.",
+    "assign": "가이드 배정",
+    "detail": "상세/수정",
+    "Unassigned": "미배정",
+    "Assigned": "배정완료",
+    "Completed": "행사종료",
+    "Cancelled": "취소됨",
+    "availableGuides": "가용 가이드 목록",
+    "assigned": "배정됨",
+    "select": "선택"
+  },
+  "report": {
+    "title": "비즈니스 리포트",
+    "subtitle": "통합 매출 데이터 및 성과 지표를 분석합니다.",
+    "exportExcel": "Excel",
+    "exportPdf": "PDF 보고서",
+    "filterPeriod": "조회 기간",
+    "filterCountry": "국가별",
+    "revenue": "예상 누적 매출",
+    "conversionRate": "견적 성사율",
+    "totalPax": "송출 인원",
+    "guideRate": "가이드 배정 완료율"
+  },
+  "settings": {
+    "title": "시스템 설정",
+    "subtitle": "환율, 언어, 계정 환경 등 통합 시스템을 구성합니다.",
+    "exchangeRate": "환율 관리 (고정 환율)",
+    "baseCurrency": "기준 통화",
+    "language": "언어",
+    "timezone": "기본 시간대",
+    "saveRates": "환율 업데이트 적용"
+  }
+}

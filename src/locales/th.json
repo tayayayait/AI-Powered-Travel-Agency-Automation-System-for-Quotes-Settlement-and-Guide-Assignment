@@ -1,0 +1,111 @@
+{
+  "common": {
+    "save": "บันทึก",
+    "cancel": "ยกเลิก",
+    "submit": "ส่ง",
+    "draft": "ฉบับร่าง",
+    "delete": "ลบ",
+    "edit": "แก้ไข",
+    "search": "ค้นหา",
+    "filter": "ตัวกรอง",
+    "all": "ทั้งหมด",
+    "back": "กลับ",
+    "next": "ถัดไป",
+    "loading": "กำลังโหลด...",
+    "error": "เกิดข้อผิดพลาด",
+    "noData": "ไม่มีข้อมูล",
+    "confirm": "ยืนยัน",
+    "close": "ปิด"
+  },
+  "nav": {
+    "dashboard": "แดชบอร์ด",
+    "quotations": "จัดการใบเสนอราคา",
+    "settlements": "จัดการการชำระเงิน",
+    "guideAssignment": "มอบหมายไกด์",
+    "reports": "รายงาน",
+    "settings": "ตั้งค่า"
+  },
+  "quotation": {
+    "title": "จัดการใบเสนอราคา",
+    "subtitle": "สร้างและจัดการใบเสนอราคาใหม่",
+    "new": "สร้างใบเสนอราคาใหม่",
+    "detail": "รายละเอียดใบเสนอราคา",
+    "eventName": "ชื่องาน",
+    "client": "ลูกค้า",
+    "startDate": "วันที่เริ่มต้น",
+    "endDate": "วันที่สิ้นสุด",
+    "paxCount": "จำนวนผู้เข้าร่วม",
+    "targetMargin": "อัตรากำไรเป้าหมาย (%)",
+    "totalAmount": "ยอดรวม",
+    "status": "สถานะ",
+    "schedule": "กำหนดการ",
+    "costDetail": "รายละเอียดค่าใช้จ่าย",
+    "proposedPrice": "ราคาเสนอ/รายการ",
+    "totalCost": "ต้นทุนรวม",
+    "searchPlaceholder": "ค้นหาชื่องานหรือลูกค้า..."
+  },
+  "status": {
+    "Draft": "ฉบับร่าง",
+    "InReview": "อยู่ระหว่างตรวจสอบ",
+    "Approved": "อนุมัติแล้ว",
+    "Rejected": "ถูกปฏิเสธ",
+    "Locked": "ล็อก/ยืนยันแล้ว"
+  },
+  "approval": {
+    "requestReview": "ส่งตรวจสอบ",
+    "approve": "อนุมัติ",
+    "reject": "ปฏิเสธ",
+    "confirmApprove": "ยืนยันอนุมัติ",
+    "rejectReason": "เหตุผลในการปฏิเสธ",
+    "rejectReasonPlaceholder": "เช่น: อัตรากำไรไม่เพียงพอ",
+    "marginWarning": "ต่ำกว่าอัตรากำไรที่แนะนำ (15%)",
+    "marginBlock": "ไม่สามารถส่งใบเสนอราคาที่มีอัตรากำไรต่ำกว่า 0%"
+  },
+  "settlement": {
+    "title": "จัดการการชำระเงิน",
+    "subtitle": "จัดการรายการชำระเงินและดำเนินการชำระเงิน",
+    "new": "สร้างใบสรุปการชำระเงิน",
+    "detail": "รายละเอียดการชำระเงิน",
+    "expectedTotal": "ยอดรวมที่คาดหวัง",
+    "actualTotal": "ค่าใช้จ่ายจริง",
+    "balance": "ยอมคงเหลือ/กำไร-ขาดทุน",
+    "finalize": "ปิดบัญชีสุดท้าย",
+    "Pending": "รอดำเนินการ",
+    "Completed": "เสร็จสมบูรณ์",
+    "Disputed": "มีข้อพิพาท"
+  },
+  "guide": {
+    "title": "มอบหมายไกด์",
+    "subtitle": "มอบหมายไกด์ตามกำหนดการ",
+    "assign": "มอบหมายไกด์",
+    "detail": "รายละเอียด/แก้ไข",
+    "Unassigned": "ยังไม่มอบหมาย",
+    "Assigned": "มอบหมายแล้ว",
+    "Completed": "งานเสร็จสิ้น",
+    "Cancelled": "ยกเลิกแล้ว",
+    "availableGuides": "รายชื่อไกด์ที่พร้อม",
+    "assigned": "มอบหมายแล้ว",
+    "select": "เลือก"
+  },
+  "report": {
+    "title": "รายงานธุรกิจ",
+    "subtitle": "วิเคราะห์ข้อมูลยอมขายและตัวชี้วัดรวม",
+    "exportExcel": "Excel",
+    "exportPdf": "รายงาน PDF",
+    "filterPeriod": "ช่วงเวลา",
+    "filterCountry": "ตามประเทศ",
+    "revenue": "รายได้สะสม",
+    "conversionRate": "อัตราการปิดดีล",
+    "totalPax": "จำนวนผู้เดินทาง",
+    "guideRate": "อัตราการมอบหมายไกด์"
+  },
+  "settings": {
+    "title": "ตั้งค่าระบบ",
+    "subtitle": "กำหนดค่าอัตราแลกเปลี่ยน ภาษา และบัญชี",
+    "exchangeRate": "จัดการอัตราแลกเปลี่ยน",
+    "baseCurrency": "สกุลเงินหลัก",
+    "language": "ภาษา",
+    "timezone": "เขตเวลา",
+    "saveRates": "อัพเดทอัตราแลกเปลี่ยน"
+  }
+}

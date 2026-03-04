@@ -1,0 +1,111 @@
+{
+  "common": {
+    "save": "Lưu",
+    "cancel": "Hủy",
+    "submit": "Gửi",
+    "draft": "Bản nháp",
+    "delete": "Xóa",
+    "edit": "Chỉnh sửa",
+    "search": "Tìm kiếm",
+    "filter": "Bộ lọc",
+    "all": "Tất cả",
+    "back": "Quay lại",
+    "next": "Tiếp theo",
+    "loading": "Đang tải...",
+    "error": "Đã xảy ra lỗi",
+    "noData": "Không có dữ liệu",
+    "confirm": "Xác nhận",
+    "close": "Đóng"
+  },
+  "nav": {
+    "dashboard": "Bảng điều khiển",
+    "quotations": "Quản lý báo giá",
+    "settlements": "Quản lý thanh toán",
+    "guideAssignment": "Phân công hướng dẫn viên",
+    "reports": "Báo cáo",
+    "settings": "Cài đặt"
+  },
+  "quotation": {
+    "title": "Quản lý báo giá",
+    "subtitle": "Tạo và quản lý báo giá mới.",
+    "new": "Tạo báo giá mới",
+    "detail": "Chi tiết báo giá",
+    "eventName": "Tên sự kiện",
+    "client": "Khách hàng",
+    "startDate": "Ngày bắt đầu",
+    "endDate": "Ngày kết thúc",
+    "paxCount": "Số người tham gia",
+    "targetMargin": "Tỷ suất lợi nhuận mục tiêu (%)",
+    "totalAmount": "Tổng cộng",
+    "status": "Trạng thái",
+    "schedule": "Lịch trình",
+    "costDetail": "Chi tiết chi phí",
+    "proposedPrice": "Giá đề xuất/mục",
+    "totalCost": "Tổng chi phí",
+    "searchPlaceholder": "Tìm theo tên sự kiện hoặc khách hàng..."
+  },
+  "status": {
+    "Draft": "Bản nháp",
+    "InReview": "Đang xét duyệt",
+    "Approved": "Đã phê duyệt",
+    "Rejected": "Đã từ chối",
+    "Locked": "Đã khóa/xác nhận"
+  },
+  "approval": {
+    "requestReview": "Gửi xét duyệt",
+    "approve": "Phê duyệt",
+    "reject": "Từ chối",
+    "confirmApprove": "Xác nhận phê duyệt",
+    "rejectReason": "Lý do từ chối",
+    "rejectReasonPlaceholder": "Ví dụ: Tỷ suất lợi nhuận không đủ",
+    "marginWarning": "Thấp hơn tỷ suất lợi nhuận khuyến nghị (15%).",
+    "marginBlock": "Không thể gửi báo giá có tỷ suất lợi nhuận dưới 0%."
+  },
+  "settlement": {
+    "title": "Quản lý thanh toán",
+    "subtitle": "Quản lý các khoản thanh toán và hoàn tất giao dịch.",
+    "new": "Tạo bảng thanh toán",
+    "detail": "Chi tiết thanh toán",
+    "expectedTotal": "Tổng dự kiến",
+    "actualTotal": "Chi phí thực tế",
+    "balance": "Số dư/Lập-Lỗ",
+    "finalize": "Kết thúc thanh toán",
+    "Pending": "Đang chờ",
+    "Completed": "Hoàn thành",
+    "Disputed": "Có tranh chấp"
+  },
+  "guide": {
+    "title": "Phân công hướng dẫn viên",
+    "subtitle": "Phân công hướng dẫn viên theo lịch trình.",
+    "assign": "Phân công HDV",
+    "detail": "Chi tiết/Sửa",
+    "Unassigned": "Chưa phân công",
+    "Assigned": "Đã phân công",
+    "Completed": "Đã hoàn thành",
+    "Cancelled": "Đã hủy",
+    "availableGuides": "Danh sách HDV khả dụng",
+    "assigned": "Đã phân công",
+    "select": "Chọn"
+  },
+  "report": {
+    "title": "Báo cáo kinh doanh",
+    "subtitle": "Phân tích dữ liệu doanh thu và chỉ số hiệu suất.",
+    "exportExcel": "Excel",
+    "exportPdf": "Báo cáo PDF",
+    "filterPeriod": "Khoảng thời gian",
+    "filterCountry": "Theo quốc gia",
+    "revenue": "Doanh thu tích lũy",
+    "conversionRate": "Tỷ lệ chốt đơn",
+    "totalPax": "Số khách",
+    "guideRate": "Tỷ lệ phân công HDV"
+  },
+  "settings": {
+    "title": "Cài đặt hệ thống",
+    "subtitle": "Cấu hình tỷ giá, ngôn ngữ và tài khoản.",
+    "exchangeRate": "Quản lý tỷ giá",
+    "baseCurrency": "Đơn vị tiền tệ",
+    "language": "Ngôn ngữ",
+    "timezone": "Múi giờ",
+    "saveRates": "Cập nhật tỷ giá"
+  }
+}
