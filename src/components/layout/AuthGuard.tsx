@@ -4,7 +4,7 @@ import { supabase } from "@/integrations/supabase/client";
 import { User } from "@supabase/supabase-js";
 import { Loader2 } from "lucide-react";
 
-const isDev = import.meta.env.DEV;
+const isDev = true; // 임시: 의뢰인 확인을 위해 인증 우회 (원래코드: import.meta.env.DEV)
 
 export function AuthGuard() {
   const [user, setUser] = useState<User | null>(null);
